@@ -1535,3 +1535,48 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/search" for ::1 at 2019-06-06 12:41:14 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/kirstenwerner/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 318ms (Views: 312.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-06 12:43:50 -0700
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-06 12:48:03 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/kirstenwerner/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 152ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-06 12:48:07 -0700
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4OjlvPgo72OsdgkVE5duIzJ14P9YQBxqda02F/SU2lyXqvmGJRnr6R4xc+ohVQJxG0CQKoFHQ/ypa+KaWtNQJg==", "zipcode"=>"98037", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 621ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-06-06 12:48:22 -0700
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dl/Ya0WAaeIEOpLBAP+gr2QHbiOgSTIicEUaW/nzVNR5HcRRmLFtaLZ96D4yPcz9TTIe9nlObbSsg87WV7Terg==", "venue_id"=>"5358023f498e1f43b1af86a1", "tip"=>"This place is hella crowded!", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 528ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-06-06 12:48:22 -0700
+Processing by TipsController#index as HTML
+  Rendering tips/index.html.erb within layouts/application
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 299ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
