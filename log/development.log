@@ -1535,3 +1535,119 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+Started GET "/" for ::1 at 2019-06-06 12:49:33 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/burakkocak/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=VT21R4WVCRY5VAQS2APVWXDBXDCPNZOJJ5QFCBCJZPPPUZY5&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0D1DXP2JW4T5TVG1HQ3CASGAZKORBBDW3FHNJ1G51V1W41MK" for ::1 at 2019-06-06 12:49:42 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0D1DXP2JW4T5TVG1HQ3CASGAZKORBBDW3FHNJ1G51V1W41MK"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 315ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 12:49:42 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 327ms (Views: 326.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth" for ::1 at 2019-06-06 12:57:18 -0400
+Processing by SessionsController#create as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 127ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 12:57:18 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=VT21R4WVCRY5VAQS2APVWXDBXDCPNZOJJ5QFCBCJZPPPUZY5&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MFRBJOIPLXCCSLFCJ0CLCB2STTYLV1J5FPGPPY32SBQZJWAK" for ::1 at 2019-06-06 12:57:19 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MFRBJOIPLXCCSLFCJ0CLCB2STTYLV1J5FPGPPY32SBQZJWAK"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 257ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 12:57:19 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-06 12:57:26 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NBX2DMua5KzFmN/2h454mctb5RkNE7O6NkyGip6hGOW9aeEpZACwrDwUaJIbYQbXqwyz7NPGBjLlkVXB9unbMg==", "zipcode"=>"30022", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 453ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 13:00:32 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 13:00:46 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/burakkocak/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 166ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 13:00:47 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 13:00:56 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-06 13:19:03 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/burakkocak/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 155ms (Views: 149.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-06 13:19:09 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cR7s9ZBWVtZtfCqwXc/ef4xoNAm0ZaraA3CFNCwgZsX4YvvQP8wC1pTwndTBIKAx7D9i/GqwH1LQrVZ/RGilEg==", "zipcode"=>"30022", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 367ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-06-06 13:19:45 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RWXxJM5N8iJNPxVRUXUvB8tQv6qBI2n6oSQ9te0+pYnMGeYBYdemIrSzojXNmlFJqwfpX1/23HJy+e7+hXZmXg==", "venue_id"=>"433dd180f964a5204b281fe3", "tip"=>"Unique coffee shop", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 299ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-06-06 13:19:45 -0400
+Processing by TipsController#index as HTML
+  Rendering tips/index.html.erb within layouts/application
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 143ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
